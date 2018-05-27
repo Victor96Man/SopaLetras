@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/todo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+
+    tools:context="com.example.sopadeletras.Sopa">
+
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="10">
+
+        <TableRow
+            android:id="@+id/primeraFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton00"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton01"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton02"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton03"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton04"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton05"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton06"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton07"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton08"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton09"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/segundaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton10"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton11"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton12"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton13"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton14"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton15"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton16"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton17"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton18"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton19"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/terceraFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton20"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton21"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton22"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton23"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton24"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton25"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton26"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton27"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton28"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton29"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/cuartaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton30"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton31"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton32"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton33"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton34"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton35"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton36"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton37"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton38"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton39"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/quintaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton40"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton41"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton42"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton43"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton44"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton45"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton46"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton47"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton48"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton49"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/sextaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton50"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton51"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton52"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton53"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton54"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton55"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton56"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton57"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton58"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton59"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/setimaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton60"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton61"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton62"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton63"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton64"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton65"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton66"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton67"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton68"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton69"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/octavaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton70"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton71"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton72"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton73"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton74"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton75"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton76"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton77"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton78"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton79"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/novenaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton80"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton81"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton82"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton83"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton84"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton85"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton86"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton87"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton88"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton89"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/decimaFila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/boton90"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton91"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton92"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton93"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton94"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton95"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton96"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton97"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton98"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+            <ImageView
+                android:id="@+id/boton99"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:onClick="onClick" />
+
+        </TableRow>
+    </TableLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="184dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/Npalabras"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textNumeroPalabras"
+            android:layout_width="88dp"
+            android:layout_height="71dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.115" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
