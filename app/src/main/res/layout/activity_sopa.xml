@@ -33,7 +33,8 @@
                 android:id="@+id/boton01"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick" />
+                android:onClick="onClick"
+                />
 
             <ImageView
                 android:id="@+id/boton02"
@@ -99,7 +100,8 @@
                 android:id="@+id/boton11"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="onClick" />
+                android:onClick="onClick"
+                />
 
             <ImageView
                 android:id="@+id/boton12"

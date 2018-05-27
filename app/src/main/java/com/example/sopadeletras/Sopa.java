@@ -118,6 +118,7 @@ public class Sopa extends AppCompatActivity {
                 Toast.makeText(this,"Te has equivocado",Toast.LENGTH_LONG).show();
             }else{
                contador.setText(Integer.toString(Integer.parseInt(contador.getText().toString())-1));
+                tacharLetra();
                if (contador.getText().toString().equals("0")){
                    Toast.makeText(this,"Has encontrado todas las palabras",Toast.LENGTH_SHORT).show();
 
@@ -144,6 +145,49 @@ public class Sopa extends AppCompatActivity {
 
 
     }
+    public void tacharLetra(){
+
+        if (columnaInicial==columnaFinal){
+            //palabra vertical
+            if (filaInicial<filaFinal) {
+                for (int i = filaInicial; i <= filaFinal; i++) {
+                    findViewById(ids[i][columnaInicial]).setBackground(getDrawable(R.drawable.lineavertical));
+                }
+            }else{
+                for (int i = filaFinal; i <= filaInicial; i++) {
+                    findViewById(ids[i][columnaInicial]).setBackground(getDrawable(R.drawable.lineavertical));
+                }
+            }
+        } else if (filaInicial == filaFinal){
+            //palabra horizontal
+            if (columnaInicial<columnaFinal) {
+                for (int i = columnaInicial; i <= columnaFinal; i++) {
+                    findViewById(ids[filaInicial][i]).setBackground(getDrawable(R.drawable.lineahorizontal));
+                }
+            }else{
+                for (int i = columnaFinal; i <= columnaInicial; i++) {
+                    findViewById(ids[filaInicial][i]).setBackground(getDrawable(R.drawable.lineahorizontal));
+                }
+            }
+        }else{
+            //palabra diagonal
+            if(filaInicial<filaFinal) {
+                int j = filaInicial;
+                for (int i = columnaInicial; i <= columnaFinal; i++) {
+                        findViewById(ids[j][i]).setBackground(getDrawable(R.drawable.lineadiagonal));
+                j++;
+                }
+            }else{
+                int j = filaFinal;
+                for (int i = columnaFinal; i <= columnaInicial; i++) {
+                    findViewById(ids[j][i]).setBackground(getDrawable(R.drawable.lineadiagonal));
+                    j++;
+                }
+            }
+        }
+    }
+
+
     public int[] coorJuego(int id){
         int[] coord = new int[2];
         for (int i = 0; i < 10; i++){
